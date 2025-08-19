@@ -10,7 +10,7 @@ while True:
     player = input("Rock, Paper, or Scissors?: ")
     
     if player not in t:
-        print("Invalid input. Not cheating!")
+        print("Invalid input. No cheating!")
         break
     computer = t[randint(0,2)]
 
